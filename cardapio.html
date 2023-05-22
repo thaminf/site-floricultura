@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Flowers</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <!-- NAVBAR-->
+  <nav class="navbar navbar-expand-lg bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="assets/images/logo.png.png" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Sobre nós</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menu">Cardápio</a>
+          </li>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+            <button class="btn btn-primary-success" type="submit">Buscar</button>
+          </form>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Carousel -->
+    <header id="carouselflowers" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselflowers" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselflowers" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselflowers" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://images.unsplash.com/photo-1628456676381-cf822e3c3f9f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+            class="d-block w-100" alt="Buquê de flores">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>A sua melhor experiência</h5>
+            <p>Floresça sua vida com nossas flores!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://images.unsplash.com/photo-1589244159943-460088ed5c92?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=890&q=80"
+            class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Um ambiente especial!</h5>
+            <p>Transforme seus momentos em jardins de felicidade.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://images.unsplash.com/photo-1619707046314-e76ae25d5ab3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>A beleza da natureza em cada pétala</h5>
+            <p>Flores selecionadas, da melhor qualidade, do jeito que você merece!</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselflowers" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselflowers" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </header>
+
+  </main>
+
+   <!-- menu -->
+   <section id="menu" class="container mt-5">
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Buquês</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Unidades</button>
+      </li>
+        <!-- cards -->
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+        <div class="col">
+          <div class="card card-menu">
+            <img src="http://source.unsplash.com/random/?flower&1/" class="card-img-top" alt="flores">
+            <div class="card-body">
+              <h5 class="card-title">Buquê de rosas</h5>
+              <p class="card-text">$ 20,00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card-menu">
+            <img src="http://source.unsplash.com/random/?flower&2/" class="card-img-top" alt="flores">
+            <div class="card-body">
+              <h5 class="card-title">Buquê de margaridas</h5>
+              <p class="card-text">$ 20,00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card-menu">
+            <img src="http://source.unsplash.com/random/?flower&3/" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Buquê de girassois</h5>
+              <p class="card-text">$ 25,00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card-menu">
+            <img src="http://source.unsplash.com/random/?flower&4/" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Buque de Tulipas</h5>
+              <p class="card-text">$ 20,00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card-menu">
+            <img src="http://source.unsplash.com/random/?flower&5/" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Buque de Tulipas</h5>
+              <p class="card-text">$ 20,00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card card-menu">
+            <img src="http://source.unsplash.com/random/?flower&6/" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Buque de Tulipas</h5>
+              <p class="card-text">$ 20,00</p>
+            </div>
+          </div>
+        </div>
+      </div></div>
+  </section>
+</main>
+
+ <!-- footer -->
+ <footer class="text-center bg-light p-5 mt-5 text-dark">
+    <img width="80" src="assets/images/logo.png.png" alt="logo">
+    <p class="mt-2 mb-0 fw-bold"> Floricultura | Transformando sua experiência com flores</p>
+    <p>(11) 99999-9999</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+</body>
+</html>
